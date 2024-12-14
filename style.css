@@ -452,6 +452,16 @@ span {
         width: 20vw;
     }
 }
+@media (max-width: 1000px) {   
+    #navigation .nav-link:hover {
+        transform: scale(1);
+        color: #1a73e8;
+    }
+    #navigation .nav-link.active {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
 @media (max-width: 768px) {
     .about {
         flex-direction: column;
@@ -495,9 +505,10 @@ span {
     .container2 img {
         width: 20px;
         left: 0;
-    }    
+    }
+  
     #navigation .nav-link.active {
-        margin-left: 1rem; /* Increased margin for better spacing */
+        margin-left: 1rem;
         margin-right: 1rem;
     }
 }
