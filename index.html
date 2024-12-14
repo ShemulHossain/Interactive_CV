@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="100" tabindex="0">
+    <section id="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Shemul</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    
+
+    <header class="hero">
+        <h1>Shemul Hossain</h1>
+        <p>Aspiring Full-Stack Developer</p>
+    </header>
+
+    <section class="section about" id="about">
+        <div class="container1">
+            <h1>Hi, It's <span>Shemul</span></h1>
+            <h3>I'm an aspiring Full-Stack Developer</h3>
+            <p>
+                Motivated and detailed-oriented IT student with fundamental computing abilities,
+                offering a distinct viewpoint derived from linguistic studies. Proficient in Programming,
+                Data Analysis, with hands-on experience in designing user-friendly applications and
+                solving complex problems. Possesses a keen interest in natural language processing,
+                software development, and data-driven technologies. Known for effective
+                communication and adaptability, with the ability to bridge technical and non-technical
+                disciplines. Looking to leverage my diverse skill set in a dynamic role that supports
+                innovation and professional growth within the tech industry.
+            </p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/shemulhossain/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/ShemulHossain" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <button class="btn btn-primary btn-1" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</button>
+                <a href="ShemulHossainCV.pdf" download class="btn btn-primary btn-1">
+                    CV
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                        <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+                        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                      </svg>
+                </a>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="img/p1.jpg" class="img-fluid rounded-circle" alt="">
+        </div>
+    </section>
+
+    <div id="timeban">
+        <div class="parallax-banner" id="timeline-banner">
+            <h2>Timeline</h2>
+        </div>
+    </div>
+    <section class="timeline">
+        <div class="container2 container2-left">
+            <img src="img/white.jpg" alt="">
+            <div class="text-box">
+                <h2>St.Aidans CBS</h2>
+                <small>2016 - 2021</small>
+                <p>Graduated secondary school in 2021 with over 400 points in the Leaving Cert.</p>
+            </div>
+        </div>
+
+        <div class="container2 container2-right">
+            <img src="img/white.jpg" alt="">
+            <div class="text-box">
+                <h2>Technological University Dublin</h2>
+                <small>2021 - Present</small>
+                <p>Attending Technological University Dublin for Computing with Language.</p>
+            </div>
+        </div>
+
+        <div class="container2 container2-left">
+            <img src="img/white.jpg" alt="">
+            <div class="text-box">
+                <h2>McDonald's</h2>
+                <small>Aug 2022 - Sep 2022</small>
+                <p>Worked as a crew member at McDonald's.</p>
+            </div>
+        </div>
+
+        <div class="container2 container2-right">
+            <img src="img/white.jpg" alt="">
+            <div class="text-box">
+                <h2>South Dublin County Council</h2>
+                <small>Feb 2024 - Aug 2024</small>
+                <p>Worked as a student intern at the South Dublin County Council.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="eduban">
+        <div class="parallax-banner" id="education-banner">
+            <h2>Education</h2>
+        </div>
+    </div>
+    <section class="section" id="education">
+        <div>
+            <ul class="nav nav-tabs row">
+                <li class="nav-item col-3">
+                    <button class="nav-link active w-100 text-center" id="year1-tab" data-bs-toggle="tab" data-bs-target="#year1" type="button">Year 1</button>
+                </li>
+                <li class="nav-item col-3">
+                    <button class="nav-link w-100 text-center" id="year2-tab" data-bs-toggle="tab" data-bs-target="#year2" type="button">Year 2</button>
+                </li>
+                <li class="nav-item col-3">
+                    <button class="nav-link w-100 text-center" id="year3-tab" data-bs-toggle="tab" data-bs-target="#year3" type="button">Year 3</button>
+                </li>
+                <li class="nav-item col-3">
+                    <button class="nav-link w-100 text-center" id="year4-tab" data-bs-toggle="tab" data-bs-target="#year4" type="button">Year 4</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="year1">
+                    <table class="table table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Computer Architecture</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Critical Skills Development</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>French 1</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Discrete Mathematics 1</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Software Development 1</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Visual Design & User Experience</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Database Fundamentals</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>French 2</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Operating System Fundamentals</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Statistics</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Software Development 2</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Object Oriented System Analysis</td>
+                                <td>B-</td>
+                            </tr>
+                            <tr>
+                                <td>Overall Year GPA:</td>
+                                <td>3.73</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="year2">
+                    <table class="table table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Advanced Database Technologies</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>French 3</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Discrete Mathematics 2</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Software Quality Assurance And Testing</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Software Development 3</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Client-side Web Development</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Social Media Communications</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Database Admin & Analysis</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>French 4</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Management Science</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Project</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Software Development</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Overall Year GPA:</td>
+                                <td>3.42</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="year3">
+                    <table class="table table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Data Structures & Algorithms</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>Cloud Services and Distributed Computing</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Big Data Technologies</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>French 5</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>Operating Systems</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Server-side Web Development</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Experiental Learning</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Overall Year GPA:</td>
+                                <td>3.08</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="year4">
+                    <table class="table table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Final Year Project</td>
+                                <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>French 7</td>
+                                <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Information Management</td>
+                                <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise App Development</td>
+                                <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Interactive Media Design</td>
+                                <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise Performance Architecture</td>
+                                <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Overall Year GPA:</td>
+                                <td>TBD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="projban">
+        <div class="parallax-banner" id="timeline-banner">
+            <h2>Projects</h2>
+        </div>
+    </div>
+    <section class="section bg-main" id="projects">
+        <div>
+            <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img class="card-img-top mb-5" src="img/135ea573.webp" alt="">
+                                        <h5 class="card-title">Ecommerce Project</h5>
+                                        <p class="card-text">This is a group project to make a Ecommerce website. It is a website that allows users to buy tickets for concerts. This project uses the Django framework.</p>
+                                        <a href="https://github.com/ShemulHossain/CA2" target="_blank" class="btn btn-primary btn-1">Project Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img class="card-img-top mb-5" src="img/135ea573.webp" alt="">
+                                        <h5 class="card-title">Furniture Store Project</h5>
+                                        <p class="card-text">This was a group project to make an Ecommerce website that specializes in selling furniture. It was made through the Django framework</p>
+                                        <a href="https://dev.azure.com/X00192450/furnitureStoreProject" target="_blank" class="btn btn-primary btn-1">Project Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img class="card-img-top mb-5" src="img/2.jpg" alt="">
+                                        <h5 class="card-title">Blazor Project</h5>
+                                        <p class="card-text">This is a blazor project that uses an API to provide the content.</p>
+                                        <div class="btn-group"><a href="https://github.com/ShemulHossain/EAD_CA3" target="_blank" class="btn btn-primary btn-1">Project Repo</a><a href="https://shemulhossain.github.io/EAD_CA3/" target="_blank" class="btn btn-primary btn-1">Go to Website</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="workban">
+        <div class="parallax-banner" id="timeline-banner">
+            <h2>Work Experience</h2>
+        </div>
+    </div>
+    <section class="container3 bg-light" id="work">
+        <div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-5">Student Intern</h5>
+                            <h6 class="card-subtitle text-muted mb-2">South Dublin County Council</h6>
+                            <p class="card-text mb-2">
+                                <strong>Duration:</strong> Feb 2024 - Aug 2024<br>
+                                Provided technical support for critical software, including provisioning, installation, and configuration. Managed maintenance of Microsoft 365 products such as Outlook, Word, Excel, PowerPoint, Teams, SharePoint, and OneDrive.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-5">Crew Member</h5>
+                            <h6 class="card-subtitle text-muted mb-2">McDonald's</h6>
+                            <p class="card-text mb-2">
+                                <strong>Duration:</strong> Aug 2022 - Sep 2022<br>
+                                Responsible for preparing food, taking orders, processing transactions, and maintaining a clean dining environment. Developed strong skills in customer service, multitasking, and teamwork in a high-energy environment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="hobban">
+        <div class="parallax-banner" id="timeline-banner">
+            <h2>Hobbies & Interests</h2>
+        </div>
+    </div>
+    <section class="container3 bg-main" id="hobbies">
+        <div class="hobbies">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-book hobby-icon"></i>
+                    <h5>Reading</h5>
+                    <p>Enjoy exploring a mix of non-fiction and fiction books.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-cubes hobby-icon"></i>
+                    <h5>3D Modelling</h5>
+                    <p>Passionate about creating 3D designs and visual models.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-code hobby-icon"></i>
+                    <h5>Coding & Software Development</h5>
+                    <p>Enjoy building software and solving complex programming problems.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-database hobby-icon"></i>
+                    <h5>Database Management</h5>
+                    <p>Interested in managing and engineering data systems.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-gamepad hobby-icon"></i>
+                    <h5>Gaming</h5>
+                    <p>Relax by playing a variety of video games.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container3 bg-light" id="contact">
+        <div>
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="text-center mt-4">
+                <button class="btn btn-primary btn-1" data-bs-toggle="modal" data-bs-target="#contactModal">Get In Touch</button>
+            </div>
+        </div>
+    </section>
+    
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Email:</strong> shemul0hossain@gmail.com</p>
+                    <p><strong>Phone:</strong> +353 0894943071</p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shemulhossain/" target="_blank">LinkedIn
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                    </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const timeline = document.querySelector('.timeline');
+            const containers = document.querySelectorAll('.container2');
+    
+            function isInViewport(element) {
+                const rect = element.getBoundingClientRect();
+                return rect.top <= window.innerHeight && rect.bottom >= 0;
+            }
+    
+            function checkTimelineAnimation() {
+                if (isInViewport(timeline)) {
+                    timeline.style.animationPlayState = 'running';
+    
+                    containers.forEach(container => {
+                        container.style.animationPlayState = 'running';
+                    });
+                }
+            }
+    
+
+            window.addEventListener('scroll', checkTimelineAnimation);
+    
+
+            checkTimelineAnimation();
+        });
+    </script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const parallaxBanners = document.querySelectorAll('.parallax-banner');
+
+        function handleScroll() {
+            const windowHeight = window.innerHeight;
+
+            parallaxBanners.forEach(banner => {
+                const rect = banner.getBoundingClientRect();
+                const isInViewport = rect.top < windowHeight && rect.bottom > 0;
+
+                if (isInViewport) {
+                    banner.classList.remove('hidden');
+                } else {
+                    banner.classList.add('hidden');
+                }
+            });
+        }
+
+        // Add scroll event listener
+        window.addEventListener('scroll', handleScroll);
+
+        // Initial check on page load
+        handleScroll();
+    });
+</script>
+
+    
+</body>
+
+</html>
